@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 420847553314665012}
   - component: {fileID: 138777440061932808}
   - component: {fileID: 965431095928004093}
+  - component: {fileID: 7657702289360554146}
   m_Layer: 0
   m_Name: 'Bullet '
   m_TagString: Untagged
@@ -140,3 +141,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7657702289360554146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397040406740441843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa9007ae5d4ea8140aea9e76a78865e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Bullet
+  damage: 1
+  lifeTime: 2
+  targetTag: Enemy
+  ownerTag: Player

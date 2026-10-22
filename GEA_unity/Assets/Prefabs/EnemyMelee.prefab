@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.86, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2318445981226324433}
@@ -51,6 +51,10 @@ MonoBehaviour:
   maxHp: 3
   currentHp: 0
   hpSlider: {fileID: 0}
+  invincibleTime: 0
+  dropPrefab: {fileID: 0}
+  dropChance: 0.3
+  hitEffect: {fileID: 0}
 --- !u!65 &3675529752048708213
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -87,6 +91,10 @@ MonoBehaviour:
   maxHp: 3
   currentHp: 0
   hpSlider: {fileID: 0}
+  invincibleTime: 0
+  dropPrefab: {fileID: 2847167620788379034, guid: 636f9b3d6a8fa8e408e95f49c2659357, type: 3}
+  dropChance: 0.3
+  hitEffect: {fileID: 0}
 --- !u!114 &3440815992302522853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,6 +107,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27a52368086aef045b769019203178e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyChaser
+  moveSpeed: 2
+  detectRange: 15
+  attackRange: 1.5
+  damage: 1
+  attackCooldown: 1
 --- !u!1001 &2857110838073898554
 PrefabInstance:
   m_ObjectHideFlags: 0
