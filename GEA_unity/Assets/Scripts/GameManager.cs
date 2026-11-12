@@ -30,4 +30,14 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(titleSceneName);
     }
+    public GameObject clearPanel;
+
+    public void GameClear()
+    {
+        clearPanel.SetActive(true);
+        Time.timeScale = 0f;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
 }
