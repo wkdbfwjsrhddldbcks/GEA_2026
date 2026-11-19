@@ -395,6 +395,7 @@ GameObject:
   - component: {fileID: 1935354856}
   - component: {fileID: 1935354858}
   - component: {fileID: 1935354859}
+  - component: {fileID: 1935354860}
   m_Layer: 0
   m_Name: Tester
   m_TagString: Untagged
@@ -457,6 +458,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec8a9ddf04329074aa92f202824f4c86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Lesson10
+--- !u!114 &1935354860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935354855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb803a2c4c402b45acff7a62cd4d3da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArrayPractice
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
